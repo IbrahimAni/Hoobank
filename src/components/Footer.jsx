@@ -4,7 +4,7 @@ import { logo } from '../assets/assets'
 import { footerLinks, socialMedia } from '../constants'
 
 const Footer = () => {
-  const getCurrentYear = new Date().getFullYear()+1;
+  const getCurrentYear = new Date().getFullYear();
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
